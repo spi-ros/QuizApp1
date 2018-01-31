@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">World Quiz</string>
+    <string name="world_quiz">World Quiz</string>
+    <string name="europe">Europe</string>
+    <string name="africa">Africa</string>
+    <string name="press_back_to_play_again">Press Back to play again</string>
+    <string name="score">Your score is %1$d out of 6</string>
+    <string name="answers">You answered:</string>
+    <string name="question_1">Question 1" "</string>
+    <string name="question_2">Question 2" "</string>
+    <string name="question_3">Question 3" "</string>
+    <string name="question_4">Question 4" "</string>
+    <string name="question_5">Question 5" "</string>
+    <string name="question_6">Question 6" "</string>
+    <string name="snackBar"><font color="#81D4FA">Tap on your answers to see the"\n"correct ones or back button to play again..</font></string>
+
+
+    or back button to play again..
+
+    <!--Europe Category-->
+
+    <string name="euro_question_1">1. What was the first Capital of Greece?</string>
+    <string name="euro_answer_1a">Piraeus</string>
+    <string name="euro_answer_1b">Nafplio</string>
+    <string name="euro_answer_1c">Athens</string>
+    <string name="euro_question_2">2. Which is the biggest mountain in Europe?</string>
+    <string name="euro_answer_2a">Mont Blanc, France-Italy</string>
+    <string name="euro_answer_2b">Etna, Italy</string>
+    <string name="euro_answer_2c">Grossglockner, Austria</string>
+    <string name="euro_question_3">3. Type in the Capital of Belgium.</string>
+    <string name="euro_answer_3">Vienna Brussels Sofia</string>
+    <string name="euro_question_4">4. How you say hello in Danish?</string>
+    <string name="euro_answer_4">Hej Hallo Ciao</string>
+    <string name="euro_question_5">5. Which two countries, Danube flows through?</string>
+    <string name="euro_answer_5a">Germany</string>
+    <string name="euro_answer_5b">Spain</string>
+    <string name="euro_answer_5c">Serbia</string>
+    <string name="euro_question_6">6. Which are the two biggest countries in Europe?</string>
+    <string name="euro_answer_6a">France</string>
+    <string name="euro_answer_6b">Finland</string>
+    <string name="euro_answer_6c">Ukraine</string>
+    <string name="euro_submit_answers">Submit Answers</string>
+    <string name="euro_score">Your score is</string>
+
+    <string name="euro_user_ans_11">You answered correct</string>
+    <string name="euro_user_ans_12">You answered Piraeus</string>
+    <string name="euro_user_ans_14">You answered Athens</string>
+    <string name="euro_user_ans_13">You didn\'t answer this question</string>
+
+    <string name="euro_user_ans_21">You answered correct</string>
+    <string name="euro_user_ans_22">You answered Etna</string>
+    <string name="euro_user_ans_24">You answered Grossglockner</string>
+    <string name="euro_user_ans_23">You didn\'t answer this question</string>
+
+    <string name="euro_user_ans_31">You answered correct</string>
+    <string name="euro_user_ans_32">You didn\'t answer this question</string>
+    <string name="euro_user_ans_33">Your answer was wrong</string>
+
+    <string name="euro_user_ans_41">You answered correct</string>
+    <string name="euro_user_ans_42">You didn\'t answer this question</string>
+    <string name="euro_user_ans_43">Your answer was wrong</string>
+
+    <string name="euro_user_ans_51">You answered correct</string>
+    <string name="euro_user_ans_52">You should check two boxes</string>
+    <string name="euro_user_ans_53">You answered Germany and Spain</string>
+    <string name="euro_user_ans_54">You answered Spain and Serbia</string>
+    <string name="euro_user_ans_55">You answered only Germany</string>
+    <string name="euro_user_ans_56">You answered only Spain</string>
+    <string name="euro_user_ans_57">You answered only Serbia</string>
+    <string name="euro_user_ans_58">You didn\'t answer this question</string>
+
+    <string name="euro_user_ans_61">You answered correct</string>
+    <string name="euro_user_ans_62">You should check only two boxes</string>
+    <string name="euro_user_ans_63">You answered France and Finland</string>
+    <string name="euro_user_ans_64">You answered Finland and Ukraine</string>
+    <string name="euro_user_ans_65">You answered only France</string>
+    <string name="euro_user_ans_66">You answered only Finland</string>
+    <string name="euro_user_ans_67">You answered only Ukraine</string>
+    <string name="euro_user_ans_68">You didn\'t answer this question</string>
+
+    <string name="euro_answers">The correct answers are:</string>
+    <string name="euro_stringAns1">Nafplio</string>
+    <string name="euro_stringAns2">Mont Blanc</string>
+    <string name="euro_stringAns3">Brussels</string>
+    <string name="euro_stringAns4">Hej</string>
+    <string name="euro_stringAns5">Germany and Serbia</string>
+    <string name="euro_stringAns6">Ukraine and France</string>
+
+
+<!--Africa Category-->
+
+    <string name="afro_question_1">1. Which is the smallest country in Africa?</string>
+    <string name="afro_answer_1a">Seychelles</string>
+    <string name="afro_answer_1b">Swaziland</string>
+    <string name="afro_answer_1c">Rwanda</string>
+    <string name="afro_question_2">2. How many Countries are there in africa?</string>
+    <string name="afro_answer_2a">67</string>
+    <string name="afro_answer_2b">72</string>
+    <string name="afro_answer_2c">54</string>
+    <string name="afro_question_3">3. Type in the Largest lake of Africa.</string>
+    <string name="afro_answer_3">Volta Turkana Victoria</string>
+    <string name="afro_question_4">4. What is the capital of Nigeria?</string>
+    <string name="afro_answer_4">Abuja Kinshasa Mombasa</string>
+    <string name="afro_question_5">5. Which two countries are neighboring?</string>
+    <string name="afro_answer_5a">Ethiopia</string>
+    <string name="afro_answer_5b">Sudan</string>
+    <string name="afro_answer_5c">Zimbabwe</string>
+    <string name="afro_question_6">6. Which are the two biggest countries in Africa?</string>
+    <string name="afro_answer_6a">Algeria</string>
+    <string name="afro_answer_6b">Libya</string>
+    <string name="afro_answer_6c">Congo</string>
+    <string name="afro_submit_answers">Submit Answers</string>
+    <string name="afro_score">Your score is</string>
+
+    <string name="afro_user_ans_11">" "You answered correct</string>
+    <string name="afro_user_ans_12">" "You answered Swaziland</string>
+    <string name="afro_user_ans_13">" "You answered Rwanda</string>
+    <string name="afro_user_ans_14">" "You didn\'t answer this question</string>
+
+    <string name="afro_user_ans_21">" "You answered correct</string>
+    <string name="afro_user_ans_22">" "You answered 72 Countries</string>
+    <string name="afro_user_ans_23">" "You answered 67 Countries</string>
+    <string name="afro_user_ans_24">" "You didn\'t answer this question</string>
+
+    <string name="afro_user_ans_31">" "You answered correct</string>
+    <string name="afro_user_ans_32">" "You didn\'t answer this question</string>
+    <string name="afro_user_ans_33">" "Your answer was wrong</string>
+
+    <string name="afro_user_ans_41">" "You answered correct</string>
+    <string name="afro_user_ans_42">" "You didn\'t answer this question</string>
+    <string name="afro_user_ans_43">" "Your answer was wrong</string>
+
+    <string name="afro_user_ans_51">" "You answered correct</string>
+    <string name="afro_user_ans_52">" "You should check only two boxes</string>
+    <string name="afro_user_ans_53">" "You answered Ethiopia and Zimbabwe</string>
+    <string name="afro_user_ans_54">" "You answered Sudan and Zimbabwe</string>
+    <string name="afro_user_ans_55">" "You answered only Ethiopia</string>
+    <string name="afro_user_ans_56">" "You answered only Sudan</string>
+    <string name="afro_user_ans_57">" "You answered only Zimbabwe</string>
+    <string name="afro_user_ans_58">" "You didn\'t answer this question</string>
+
+    <string name="afro_user_ans_61">" "You answered correct</string>
+    <string name="afro_user_ans_62">" "You should check only two boxes</string>
+    <string name="afro_user_ans_63">" "You answered Algeria and Libya</string>
+    <string name="afro_user_ans_64">" "You answered Libya and Congo</string>
+    <string name="afro_user_ans_65">" "You answered only Algeria</string>
+    <string name="afro_user_ans_66">" "You answered only Libya</string>
+    <string name="afro_user_ans_67">" "You answered only Congo</string>
+    <string name="afro_user_ans_68">" "You didn\'t answer this question</string>
+
+    <string name="afro_answers">The correct answers are:</string>
+    <string name="afro_stringAns1">Seychelles" "</string>
+    <string name="afro_stringAns2">54" "</string>
+    <string name="afro_stringAns3">Victoria" "</string>
+    <string name="afro_stringAns4">Abuja" "</string>
+    <string name="afro_stringAns5">Ethiopia and Sudan" "</string>
+    <string name="afro_stringAns6">Algeria and Congo" "</string>
+
+</resources>

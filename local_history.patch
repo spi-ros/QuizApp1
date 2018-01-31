@@ -1,0 +1,15 @@
+Index: app/src/main/java/com/example/android/quizapp1/FourthActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/android/quizapp1/FourthActivity.java	(revision )
++++ app/src/main/java/com/example/android/quizapp1/FourthActivity.java	(revision )
+@@ -186,7 +186,6 @@
+                 i.putExtra("STRING_ANSWER_4", userAns4);
+                 i.putExtra("STRING_ANSWER_5", userAns5);
+                 i.putExtra("STRING_ANSWER_6", userAns6);
+-                i.ge
+                 startActivity(i);
+ 
+             }

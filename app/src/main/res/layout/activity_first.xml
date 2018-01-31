@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/world_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp1.FirstActivity">
+
+    <ImageView
+        android:id="@+id/world_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/earth" />
+
+    <TextView
+        android:id="@+id/world_quiz"
+        style="@style/title"
+        android:text="@string/world_quiz" />
+
+    <TextView
+        android:id="@+id/europe_quiz"
+        style="@style/categories"
+        android:paddingBottom="@dimen/padding_8"
+        android:paddingTop="@dimen/padding_16"
+        android:text="@string/europe" />
+
+    <TextView
+        android:id="@+id/africa_quiz"
+        style="@style/categories"
+        android:layout_below="@id/europe_quiz"
+        android:text="@string/africa" />
+
+</RelativeLayout>

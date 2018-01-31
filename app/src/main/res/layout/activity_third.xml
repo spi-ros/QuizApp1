@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myCoordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp1.ThirdActivity">
+
+    <LinearLayout
+        android:id="@+id/score_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_10"
+        android:paddingRight="@dimen/padding_10">
+
+        <TextView
+            android:id="@+id/text1"
+            style="@style/mainTitle"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/text2"
+            style="@style/secondaryTitle"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/text3"
+            style="@style/border"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text4"
+                style="@style/questions_2"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/text5"
+                style="@style/answerViews"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text6"
+                style="@style/questions_2"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/text7"
+                style="@style/answerViews"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text8"
+                style="@style/questions_2"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/text9"
+                style="@style/answerViews"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text10"
+                style="@style/questions_2"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/text11"
+                style="@style/answerViews"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text12"
+                style="@style/questions_2"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/text13"
+                style="@style/answerViews"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text14"
+                style="@style/questions_2"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/text15"
+                style="@style/answerViews"
+                android:text="" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text18"
+            style="@style/border" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

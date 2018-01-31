@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/europe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.android.quizapp1.SecondActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10">
+
+        <LinearLayout
+            android:id="@+id/questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/question1"
+                style="@style/Views"
+                android:text="@string/euro_question_1" />
+
+            <RadioGroup
+                android:id="@+id/radio_group1"
+                style="@style/Views"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_1_1"
+                    style="@style/radioButton"
+                    android:text="@string/euro_answer_1a" />
+
+                <RadioButton
+                    android:id="@+id/radio_1_2"
+                    style="@style/radioButton"
+                    android:text="@string/euro_answer_1b" />
+
+                <RadioButton
+                    android:id="@+id/radio_1_3"
+                    style="@style/radioButton"
+                    android:text="@string/euro_answer_1c" />
+
+            </RadioGroup>
+
+            <TextView style="@style/border" />
+
+            <TextView
+                android:id="@+id/question2"
+                style="@style/Views"
+                android:text="@string/euro_question_2" />
+
+            <RadioGroup
+                android:id="@+id/radio_group2"
+                style="@style/Views"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_2_1"
+                    style="@style/radioButton"
+                    android:text="@string/euro_answer_2a" />
+
+                <RadioButton
+                    android:id="@+id/radio_2_2"
+                    style="@style/radioButton"
+                    android:text="@string/euro_answer_2b" />
+
+                <RadioButton
+                    android:id="@+id/radio_2_3"
+                    style="@style/radioButton"
+                    android:text="@string/euro_answer_2c" />
+
+            </RadioGroup>
+
+            <TextView style="@style/border" />
+
+            <TextView
+                android:id="@+id/question3"
+                style="@style/Views"
+                android:text="@string/euro_question_3" />
+
+            <EditText
+                android:id="@+id/answer3_edit_text"
+                style="@style/editText"
+                android:hint="@string/euro_answer_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/margin_15" />
+
+            <TextView
+                android:id="@+id/question4"
+                style="@style/Views"
+                android:text="@string/euro_question_4" />
+
+            <EditText
+                android:id="@+id/answer4_edit_text"
+                style="@style/editText"
+                android:hint="@string/euro_answer_4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/margin_15" />
+
+            <TextView
+                android:id="@+id/question5"
+                style="@style/Views"
+                android:text="@string/euro_question_5" />
+
+            <LinearLayout
+                android:id="@+id/check_group1"
+                style="@style/Views"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/check_1_1"
+                    style="@style/radioButton"
+                    android:text="@string/euro_answer_5a" />
+
+                <CheckBox
+                    android:id="@+id/check_1_2"
+                    style="@style/radioButton"
+                    android:text="@string/euro_answer_5b" />
+
+                <CheckBox
+                    android:id="@+id/check_1_3"
+                    style="@style/radioButton"
+                    android:text="@string/euro_answer_5c" />
+
+            </LinearLayout>
+
+            <TextView style="@style/border" />
+
+
+            <TextView
+                android:id="@+id/question6"
+                style="@style/Views"
+                android:text="@string/euro_question_6" />
+
+            <LinearLayout
+                style="@style/Views"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/padding_8">
+
+                <CheckBox
+                    android:id="@+id/check_2_1"
+                    style="@style/radioButton"
+                    android:text="@string/euro_answer_6a" />
+
+                <CheckBox
+                    android:id="@+id/check_2_2"
+                    style="@style/radioButton"
+                    android:text="@string/euro_answer_6b" />
+
+                <CheckBox
+                    android:id="@+id/check_2_3"
+                    style="@style/radioButton"
+                    android:text="@string/euro_answer_6c" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_answers"
+            style="@style/submit_button"
+            android:layout_below="@id/questions"
+            android:text="@string/euro_submit_answers" />
+    </RelativeLayout>
+
+</ScrollView>
