@@ -14,9 +14,6 @@
     <string name="question_6">Question 6" "</string>
     <string name="snackBar"><font color="#81D4FA">Tap on your answers to see the"\n"correct ones or back button to play again..</font></string>
 
-
-    or back button to play again..
-
     <!--Europe Category-->
 
     <string name="euro_question_1">1. What was the first Capital of Greece?</string>
