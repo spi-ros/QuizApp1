@@ -3,8 +3,8 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="android:color">#263238</item>
-        <item name="colorPrimaryDark">#000000</item>
+        <item name="android:color">@color/colorBlueGrey900</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:homeAsUpIndicator">@null</item>
     </style>
@@ -13,34 +13,34 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
-        <item name="android:paddingBottom">10dp</item>
-        <item name="android:paddingTop">10dp</item>
-        <item name="android:textColor">#000000</item>
-        <item name="android:textSize">22sp</item>
+        <item name="android:paddingBottom">@dimen/padding_10</item>
+        <item name="android:paddingTop">@dimen/padding_10</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/txt_size_22</item>
     </style>
 
     <style name="radioButton">
-        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_width">@dimen/width_0</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
         <item name="android:gravity">center</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textColor">#37474F</item>
+        <item name="android:textSize">@dimen/txt_size_15</item>
+        <item name="android:textColor">@color/colorBlueGrey800</item>
     </style>
 
     <style name="editText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColorHint">#E57373</item>
+        <item name="android:textColorHint">@color/colorRed300</item>
         <item name="android:inputType">textCapWords</item>
         <item name="android:alpha">.55</item>
     </style>
 
     <style name="border">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
-        <item name="android:layout_margin">15dp</item>
-        <item name="android:background">#90A4AE</item>
+        <item name="android:layout_height">@dimen/height_1</item>
+        <item name="android:layout_margin">@dimen/margin_15</item>
+        <item name="android:background">@color/colorBlueGrey300</item>
     </style>
 
     <style name="submit_button">
@@ -48,8 +48,8 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:paddingLeft">@dimen/padding_8</item>
         <item name="android:paddingRight">@dimen/padding_8</item>
-        <item name="android:layout_marginTop">16dp</item>
-        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_16</item>
+        <item name="android:layout_marginBottom">@dimen/margin_16</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:background">@drawable/button_shape</item>
     </style>
@@ -59,61 +59,61 @@
     <style name="mainTitle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:textSize">26sp</item>
-        <item name="android:textColor">#D32F2F</item>
+        <item name="android:textSize">@dimen/txt_size_26</item>
+        <item name="android:textColor">@color/colorRed700</item>
         <item name="android:gravity">center</item>
-        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_margin">@dimen/margin_10</item>
     </style>
 
     <style name="secondaryTitle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:textSize">19sp</item>
-        <item name="android:textColor">#212121</item>
+        <item name="android:textSize">@dimen/txt_size_19</item>
+        <item name="android:textColor">@color/colorGrey900</item>
         <item name="android:gravity">center</item>
-        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_margin">@dimen/margin_10</item>
     </style>
 
-<style name="answerViews">
-    <item name="android:layout_height">wrap_content</item>
-    <item name="android:layout_width">0dp</item>
-    <item name="android:layout_weight">1</item>
-    <item name="android:textSize">15sp</item>
-    <item name="android:textColor">#37474F</item>
-    <item name="android:gravity">center</item>
-    <item name="android:layout_marginLeft">8dp</item>
-    <item name="android:layout_marginRight">8dp</item>
-</style>
+    <style name="answerViews">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/width_0</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/txt_size_15</item>
+        <item name="android:textColor">@color/colorBlueGrey800</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/margin_8</item>
+        <item name="android:layout_marginRight">@dimen/margin_8</item>
+    </style>
 
     <style name="questions_2">
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">#37474F</item>
+        <item name="android:textSize">@dimen/txt_size_16</item>
+        <item name="android:textColor">@color/colorBlueGrey800</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_width">@dimen/width_0</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_8</item>
+        <item name="android:layout_marginRight">@dimen/margin_8</item>
     </style>
 
     <!--World Layout-->
 
     <style name="title">
-        <item name="android:textSize">48sp</item>
-        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/txt_size_48</item>
+        <item name="android:textColor">@color/colorBlack</item>
         <item name="android:fontFamily">@font/courgette</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_above">@id/europe_quiz</item>
         <item name="android:layout_centerInParent">true</item>
-        <item name="android:paddingBottom">24dp</item>
+        <item name="android:paddingBottom">@dimen/padding_24</item>
     </style>
 
     <style name="categories">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerInParent">true</item>
-        <item name="android:textColor">#000000</item>
-        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/txt_size_32</item>
         <item name="android:textStyle">bold</item>
         <item name="android:fontFamily">@font/happy_monkey</item>
     </style>

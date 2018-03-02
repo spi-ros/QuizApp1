@@ -4,7 +4,7 @@
     android:id="@+id/africa_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.quizapp1.SecondActivity">
+    tools:context="com.example.android.quizapp1.EuropeActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

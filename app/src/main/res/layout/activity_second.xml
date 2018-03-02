@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:focusableInTouchMode="true"
-    tools:context="com.example.android.quizapp1.SecondActivity">
+    tools:context="com.example.android.quizapp1.EuropeActivity">
 
     <RelativeLayout
         android:id="@+id/relative"
@@ -173,10 +173,10 @@
         </LinearLayout>
 
         <Button
-    android:id="@+id/submit_answers"
-    style="@style/submit_button"
-    android:layout_below="@id/questions"
-    android:text="@string/euro_submit_answers" />
-</RelativeLayout>
+            android:id="@+id/submit_answers"
+            style="@style/submit_button"
+            android:layout_below="@id/questions"
+            android:text="@string/euro_submit_answers" />
+    </RelativeLayout>
 
 </ScrollView>

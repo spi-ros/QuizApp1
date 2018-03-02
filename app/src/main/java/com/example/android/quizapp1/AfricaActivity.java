@@ -1,9 +1,9 @@
 package com.example.android.quizapp1;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.content.Intent;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -15,11 +15,10 @@ import android.widget.RadioGroup;
 import android.widget.ScrollView;
 
 /**
- *
  * Created by Spi_ros on 21/01/2018.
  */
 
-public class FourthActivity extends AppCompatActivity {
+public class AfricaActivity extends AppCompatActivity {
 
     int score = 0;
     String master, userAns1, userAns2, userAns3, userAns4, userAns5, userAns6, strMaster1,
@@ -36,12 +35,12 @@ public class FourthActivity extends AppCompatActivity {
 
         final RadioGroup radioGroupOne = findViewById(R.id.radio_group1);
         final RadioGroup radioGroupTwo = findViewById(R.id.radio_group2);
-        final CheckBox chkQFiveAns1 = findViewById(R.id.check_1_1);
-        final CheckBox chkQFiveAns2 = findViewById(R.id.check_1_2);
-        final CheckBox chkQFiveAns3 = findViewById(R.id.check_1_3);
-        final CheckBox chkQSixAns1 = findViewById(R.id.check_2_1);
-        final CheckBox chkQSixAns2 = findViewById(R.id.check_2_2);
-        final CheckBox chkQSixAns3 = findViewById(R.id.check_2_3);
+        final CheckBox checkFiveAns1 = findViewById(R.id.check_1_1);
+        final CheckBox checkFiveAns2 = findViewById(R.id.check_1_2);
+        final CheckBox checkFiveAns3 = findViewById(R.id.check_1_3);
+        final CheckBox checkSixAns1 = findViewById(R.id.check_2_1);
+        final CheckBox checkSixAns2 = findViewById(R.id.check_2_2);
+        final CheckBox checkSixAns3 = findViewById(R.id.check_2_3);
         final RadioButton radioOneAns1 = findViewById(R.id.radio_1_1);
         final RadioButton radioOneAns2 = findViewById(R.id.radio_1_2);
         final RadioButton radioOneAns3 = findViewById(R.id.radio_1_3);
@@ -90,7 +89,7 @@ public class FourthActivity extends AppCompatActivity {
 
 
                 EditText answer3EditBox = findViewById(R.id.answer3_edit_text);
-                if (answer3EditBox.getText().toString().contains("Victoria") || answer3EditBox.getText().toString().contains("victoria")) {
+                if (answer3EditBox.getText().toString().equalsIgnoreCase("Victoria")) {
                     score += 1;
                     userAns3 = getString(R.string.afro_user_ans_31);
                 } else if (answer3EditBox.getText().toString().matches("")) {
@@ -101,7 +100,7 @@ public class FourthActivity extends AppCompatActivity {
 
 
                 EditText answer4EditBox = findViewById(R.id.answer4_edit_text);
-                if (answer4EditBox.getText().toString().contains("Abuja") || answer4EditBox.getText().toString().contains("abuja")) {
+                if (answer4EditBox.getText().toString().equalsIgnoreCase("Abuja")) {
                     score += 1;
                     userAns4 = getString(R.string.afro_user_ans_41);
                 } else if (answer4EditBox.getText().toString().matches("")) {
@@ -111,43 +110,43 @@ public class FourthActivity extends AppCompatActivity {
                 }
 
 
-                if (chkQFiveAns1.isChecked() && chkQFiveAns2.isChecked() && !chkQFiveAns3.isChecked()) {
+                if (checkFiveAns1.isChecked() && checkFiveAns2.isChecked() && !checkFiveAns3.isChecked()) {
                     score += 1;
                     userAns5 = getString(R.string.afro_user_ans_51);
-                } else if (chkQFiveAns1.isChecked() && chkQFiveAns2.isChecked() && chkQFiveAns3.isChecked()) {
+                } else if (checkFiveAns1.isChecked() && checkFiveAns2.isChecked() && checkFiveAns3.isChecked()) {
                     userAns5 = getString(R.string.afro_user_ans_52);
-                } else if (chkQFiveAns1.isChecked() && !chkQFiveAns2.isChecked() && chkQFiveAns3.isChecked()) {
+                } else if (checkFiveAns1.isChecked() && !checkFiveAns2.isChecked() && checkFiveAns3.isChecked()) {
                     userAns5 = getString(R.string.afro_user_ans_53);
-                } else if (!chkQFiveAns1.isChecked() && chkQFiveAns2.isChecked() && chkQFiveAns3.isChecked()) {
+                } else if (!checkFiveAns1.isChecked() && checkFiveAns2.isChecked() && checkFiveAns3.isChecked()) {
                     userAns5 = getString(R.string.afro_user_ans_54);
 
-                } else if (chkQFiveAns1.isChecked() && !chkQFiveAns2.isChecked() && !chkQFiveAns3.isChecked()) {
+                } else if (checkFiveAns1.isChecked() && !checkFiveAns2.isChecked() && !checkFiveAns3.isChecked()) {
                     userAns5 = getString(R.string.afro_user_ans_55);
 
-                } else if (!chkQFiveAns1.isChecked() && chkQFiveAns2.isChecked() && !chkQFiveAns3.isChecked()) {
+                } else if (!checkFiveAns1.isChecked() && checkFiveAns2.isChecked() && !checkFiveAns3.isChecked()) {
                     userAns5 = getString(R.string.afro_user_ans_56);
 
-                } else if (!chkQFiveAns1.isChecked() && !chkQFiveAns2.isChecked() && chkQFiveAns3.isChecked()) {
+                } else if (!checkFiveAns1.isChecked() && !checkFiveAns2.isChecked() && checkFiveAns3.isChecked()) {
                     userAns5 = getString(R.string.afro_user_ans_57);
                 } else {
                     userAns5 = getString(R.string.euro_user_ans_58);
                 }
 
 
-                if (chkQSixAns1.isChecked() && !chkQSixAns2.isChecked() && chkQSixAns3.isChecked()) {
+                if (checkSixAns1.isChecked() && !checkSixAns2.isChecked() && checkSixAns3.isChecked()) {
                     score += 1;
                     userAns6 = getString(R.string.afro_user_ans_61);
-                } else if (chkQSixAns1.isChecked() && chkQSixAns2.isChecked() && chkQSixAns3.isChecked()) {
+                } else if (checkSixAns1.isChecked() && checkSixAns2.isChecked() && checkSixAns3.isChecked()) {
                     userAns6 = getString(R.string.afro_user_ans_62);
-                } else if (chkQSixAns1.isChecked() && chkQSixAns2.isChecked() && !chkQSixAns3.isChecked()) {
+                } else if (checkSixAns1.isChecked() && checkSixAns2.isChecked() && !checkSixAns3.isChecked()) {
                     userAns6 = getString(R.string.afro_user_ans_63);
-                } else if (!chkQSixAns1.isChecked() && chkQSixAns2.isChecked() && chkQSixAns3.isChecked()) {
+                } else if (!checkSixAns1.isChecked() && checkSixAns2.isChecked() && checkSixAns3.isChecked()) {
                     userAns6 = getString(R.string.afro_user_ans_64);
-                } else if (chkQSixAns1.isChecked() && !chkQSixAns2.isChecked() && !chkQSixAns3.isChecked()) {
+                } else if (checkSixAns1.isChecked() && !checkSixAns2.isChecked() && !checkSixAns3.isChecked()) {
                     userAns6 = getString(R.string.afro_user_ans_65);
-                } else if (!chkQSixAns1.isChecked() && chkQSixAns2.isChecked() && !chkQSixAns3.isChecked()) {
+                } else if (!checkSixAns1.isChecked() && checkSixAns2.isChecked() && !checkSixAns3.isChecked()) {
                     userAns6 = getString(R.string.afro_user_ans_66);
-                } else if (!chkQSixAns1.isChecked() && !chkQSixAns2.isChecked() && chkQSixAns3.isChecked()) {
+                } else if (!checkSixAns1.isChecked() && !checkSixAns2.isChecked() && checkSixAns3.isChecked()) {
                     userAns6 = getString(R.string.afro_user_ans_67);
                 } else {
                     userAns6 = getString(R.string.afro_user_ans_68);
@@ -164,8 +163,8 @@ public class FourthActivity extends AppCompatActivity {
                 strMaster8 = getString(R.string.afro_stringAns6);
 
                 Intent i = new Intent();
-                i.setClass(FourthActivity.this, ThirdActivity.class);
-                i.putExtra("Uniqid", "From_Activity_Fourth");
+                i.setClass(AfricaActivity.this, ResultsActivity.class);
+                i.putExtra("Uniqid", "From_Activity_Africa");
                 i.putExtra("STRING_I_NEED_1", strMaster1);
                 i.putExtra("STRING_I_NEED_2", strMaster2);
                 i.putExtra("STRING_I_NEED_3", strMaster3);

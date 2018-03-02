@@ -1,13 +1,10 @@
 package com.example.android.quizapp1;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class FirstActivity extends AppCompatActivity {
 
@@ -21,7 +18,7 @@ public class FirstActivity extends AppCompatActivity {
             @Override
             public  void  onClick(View view){
 
-                Intent euroIntent = new Intent(FirstActivity.this, SecondActivity.class);
+                Intent euroIntent = new Intent(FirstActivity.this, EuropeActivity.class);
                 startActivity(euroIntent);
             }
         });
@@ -31,7 +28,7 @@ public class FirstActivity extends AppCompatActivity {
             @Override
             public  void  onClick(View view){
 
-                Intent afroIntent = new Intent(FirstActivity.this, FourthActivity.class);
+                Intent afroIntent = new Intent(FirstActivity.this, AfricaActivity.class);
                 startActivity(afroIntent);
             }
         });

@@ -17,32 +17,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity"
+        <activity
+            android:name=".EuropeActivity"
             android:label="Europe"
-            android:screenOrientation="portrait"
             android:noHistory="true"
-            android:parentActivityName=".FirstActivity">
+            android:parentActivityName=".FirstActivity"
+            android:screenOrientation="portrait">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".FirstActivity" />
         </activity>
-        <activity android:name=".ThirdActivity"
+        <activity
+            android:name=".ResultsActivity"
             android:label="Score"
             android:noHistory="true"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".FirstActivity">
+            android:parentActivityName=".FirstActivity"
+            android:screenOrientation="portrait">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".FirstActivity" />
 
         </activity>
-        <activity android:name=".FourthActivity"
+        <activity
+            android:name=".AfricaActivity"
             android:label="Africa"
             android:noHistory="true"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".FirstActivity">
+            android:parentActivityName=".FirstActivity"
+            android:screenOrientation="portrait">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
